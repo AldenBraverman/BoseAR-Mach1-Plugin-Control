@@ -26,7 +26,13 @@ Follow the installation instructions for each prerequisite, they should be fairl
 
 ## Running the tests
 
-Open the Unity project and the Mach1 Spacial Template (Mach1 Spacial Template.RPP). On the monitor bus in Reaper, expose the M1-Monitor plugin parameters and make sure that the plugin is using the port 9898 for OSC messages. Connect your BoseAR hardware via USB to your computer and play the Unity scene. Unity will then identify your hardware and start sending OSC messages to the plugin. In Reaper, switch your audio output device to your BoseAR hardware to monitor directly through the hardware.
+Open the Reaper project file included in this repo. On the monitor bus in Reaper, expose the M1-Monitor plugin parameters and make sure that the plugin is using the port 9898 for OSC messages. In Unity Hub, add the Unity project found in this repo. Connect your BoseAR hardware via USB to your computer and play the Unity scene. Follow the instructions in the Runtime/Game view, Unity will then identify your hardware and start sending OSC messages. In Reaper, switch your audio output device to your BoseAR hardware to monitor directly through the hardware. 
+
+## Deployment
+
+Unfortunetly, this app cannot be deployed to a standalone MacOS/Windows app. After reading many [forum posts](https://bosedevs.bose.com/discussion/594/can-i-develop-a-unity-scene-for-desktop-that-uses-bose-frames-or-is-it-ios-and-android-only) and attempting to manually add the USB provider to the WearableControl Runtime, I have decided to wait on further SDK updates to implement this function. If the need for a USB runtime provider becomes apparent to Bose AR, the addition of this feature can enable building tethered Bose AR applications.  
+
+The Bose package in this Unity project has been modified so it is able to build a MacOS or Windows standalone app if you are using the Debug runtime provider. It will also work with the USB runtime provider, however the app will not function properly. It may be possible to bridge communications between the USB provider and the Debug provider, this may be difficult without the USB provider plugin source code. Feel free to attempt to find this solution (just be sure to save a different, modified copy!)
 
 ## Built With
 
