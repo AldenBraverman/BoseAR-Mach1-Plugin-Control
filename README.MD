@@ -1,10 +1,10 @@
 # BoseAR Mach1 Plugin Control
 
-One challenge I approached as an audio mixing engineer is finding accessible tools for mixing ambisonic/spatial audio. [Mach1](https://www.mach1.tech/) has built excellent [VST plugins](https://www.mach1.tech/downloads) to spatialize audio signals, I wanted to build on their monitoring tools. Mach1 has a [mobile app](https://apps.apple.com/us/app/m1-mntr-ctrl/id1486961476?ls=1) that acts as an [OSC](http://opensoundcontrol.org/introduction-osc) bridge between their monitoring plugin and [BoseAR hardware](https://www.bose.com/en_us/better_with_bose/augmented_reality.html), however this prevents audio monitoring through the BoseAR hardware without advanced audio routing. I was unable to find a desktop tool that allows me to control the monitor VST with BoseAR hardware, my goal was to build a tool that would enable an audio engineer to do this. This tool enables real-time spacial audio monitoring with BoseAR hardware.
+One challenge I approached as an audio mixing engineer is finding accessible tools for mixing ambisonic/spatial audio. [Mach1](https://www.mach1.tech/) has built excellent [VST plugins](https://www.mach1.tech/downloads) to spatialize audio signals, I wanted to build on their monitoring tools. Mach1 has a [mobile app](https://apps.apple.com/us/app/m1-mntr-ctrl/id1486961476?ls=1) that acts as an [OSC](http://opensoundcontrol.org/introduction-osc) bridge between their monitoring plugin and [BoseAR hardware](https://www.bose.com/en_us/better_with_bose/augmented_reality.html), however this prevents audio monitoring through the BoseAR hardware without advanced audio routing. I was unable to find a desktop tool that allows me to control the monitor VST with BoseAR hardware, my goal was to build a tool that would enable an audio engineer to do this. This tool enables realtime spatial audio monitoring with BoseAR hardware.
 
 ## Getting Started
 
-Clone this repo and install the prerequisities.
+Download the [Project Files](https://drive.google.com/open?id=1NkDbd0GOScR8fBJNx_6Cgxss0_6l94tU) and install the prerequisities. A video demonstration of the project can be found [here](https://youtu.be/rkqmpieaUiM).
 
 ### Prerequisites
 
